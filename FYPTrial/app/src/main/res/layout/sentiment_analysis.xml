@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/happy_iv"
+        android:src="@drawable/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/happy_iv"
+        android:textColor="#000"
+        android:textSize="27sp"
+        android:layout_marginLeft="132dp"
+        android:text="%"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/sad_iv"
+        android:src="@drawable/sad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="215dp"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:layout_marginTop="17dp"
+        android:id="@+id/sad_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="250dp"
+        android:textSize="27sp"
+        android:text="%"
+
+        android:textStyle="bold"
+        android:layout_below="@+id/sad_iv"/>
+
+
+
+</RelativeLayout>

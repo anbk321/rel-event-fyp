@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">REL-EVENT</string>
+
+    <string name="title_activity_event_description">EventDescription</string>
+    <string name="title_activity_select_city">SelectCity</string>
+    <string name="map_key" translatable="false">AIzaSyDynRnzJCmMM862pys6pZCQ7hiBhwvzcQk</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_user_update_settings">UserUpdateSettings</string>
+</resources>

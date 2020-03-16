@@ -1,0 +1,16 @@
+id,created_at,source,original_text,clean_text,sentiment,polarity,subjectivity,lang,favorite_count,retweet_count,original_author,possibly_sensitive,hashtags,user_mentions,place,place_coord_boundaries
+1235571511936745472,Thu Mar 05 14:22:58 +0000 2020,"<a href=""https://mobile.twitter.com"" rel=""nofollow"">Twitter Web App</a>","#NASCON Notifies of Board Meeting - @nsenigeria
+
+https://t.co/cUGaewrKCZ via @proshare",NASCON Notifies Board Meeting nsenigeria https //t.co/cUGaewrKCZ via proshare,"Sentiment(polarity=0.0, subjectivity=0.0)",0.0,0.0,en,1,1,proshare,False,NASCON,"nsenigeria, proshare",Nigeria,
+1234888469954035712,Tue Mar 03 17:08:49 +0000 2020,"<a href=""http://www.mocana.co.ke"" rel=""nofollow"">Broken Limbs</a>","RT @NaSCon_FastNU: Announcing the new official dates of NaSCon'20! Join us on 3rd, 4th, and 5th April for the flagship event!
+
+#NaSCon #NaS…",RT NaSCon_FastNU Announcing new official dates NaSCon'20 Join us 3rd 4th 5th April flagship event NaSCon NaS…,"Sentiment(polarity=0.06818181818181818, subjectivity=0.22727272727272727)",0.06818181818181818,0.22727272727272727,en,0,1,scoshield,,NaSCon,NaSCon_FastNU,"Nairobi, Kigali",
+1234888268623339522,Tue Mar 03 17:08:01 +0000 2020,"<a href=""https://mobile.twitter.com"" rel=""nofollow"">Twitter Web App</a>","Announcing the new official dates of NaSCon'20! Join us on 3rd, 4th, and 5th April for the flagship event!
+
+#NaSCon… https://t.co/QGviVTQB3L",Announcing new official dates NaSCon'20 Join us 3rd 4th 5th April flagship event NaSCon… https //t.co/QGviVTQB3L,"Sentiment(polarity=0.06818181818181818, subjectivity=0.22727272727272727)",0.06818181818181818,0.22727272727272727,en,1,1,NaSCon_FastNU,False,NaSCon,,"Fast NUCES, H11/4, Islamabad",
+1234114592390950912,Sun Mar 01 13:53:42 +0000 2020,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>","Presenting Aerowars!
+#NaSCon #NaSCon20 https://t.co/bzaoLt5foJ",Presenting Aerowars NaSCon NaSCon20 https //t.co/bzaoLt5foJ,"Sentiment(polarity=0.0, subjectivity=0.0)",0.0,0.0,en,2,0,NaSCon_FastNU,False,"NaSCon, NaSCon20",,"Fast NUCES, H11/4, Islamabad",
+1233486406535782401,Fri Feb 28 20:17:31 +0000 2020,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>","RT @NaSCon_FastNU: Marketing team spreading the word about NaSCon'20 at Szabist and Bahria University.
+#NaSCon #NaSCon20 https://t.co/rWBVv…",RT NaSCon_FastNU Marketing team spreading word NaSCon'20 Szabist Bahria University NaSCon NaSCon20 https //t.co/rWBVv…,"Sentiment(polarity=0.0, subjectivity=0.0)",0.0,0.0,en,0,1,ssra_syed,,"NaSCon, NaSCon20",NaSCon_FastNU,"اسلام آباد, پاکستان",
+1233469781975666690,Fri Feb 28 19:11:27 +0000 2020,"<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>","Marketing team spreading the word about NaSCon'20 at Szabist and Bahria University.
+#NaSCon #NaSCon20 https://t.co/rWBVv328zs",Marketing team spreading word NaSCon'20 Szabist Bahria University NaSCon NaSCon20 https //t.co/rWBVv328zs,"Sentiment(polarity=0.0, subjectivity=0.0)",0.0,0.0,en,4,1,NaSCon_FastNU,False,"NaSCon, NaSCon20",,"Fast NUCES, H11/4, Islamabad",
