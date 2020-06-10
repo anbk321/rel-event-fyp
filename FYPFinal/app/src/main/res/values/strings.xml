@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">REL-EVENT</string>
+
+    <string name="title_activity_event_description">EventDescription</string>
+    <string name="title_activity_select_city">SelectCity</string>
+    <string name="map_key" translatable="false">AIzaSyDynRnzJCmMM862pys6pZCQ7hiBhwvzcQk</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="title_activity_user_update_settings">UserUpdateSettings</string>
+    <string name="title_activity_time_example">TimeExample</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/gridbg">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="ENTER DETAILS TO ANALYZE AN EVENT"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:weightSum="1"
+        android:layout_weight="0.7"
+        android:paddingTop="37dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <!-- Event Date Label -->
+            <EditText android:id="@+id/in_date"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:hint=""/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT Date"
+                android:id="@+id/btn_date"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <!-- Event Time Label -->
+            <EditText android:id="@+id/in_time"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:hint=""/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELECT TIME"
+                android:id="@+id/btn_time" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+
+        <!-- Event Category -->
+        <EditText android:id="@+id/et_category"
+            android:layout_width="230dp"
+            android:layout_marginLeft="24dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:hint="Select your Event Category"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="13dp"
+            android:focusable="false"
+            android:layout_below="@+id/city"
+            android:id="@+id/lvC"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:hint="OR"
+            android:textSize="20sp"/>
+
+
+        <!-- Popular Events  -->
+        <EditText android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:hint="Select a trending event from the list below"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="13dp"
+            android:focusable="false"
+            android:layout_below="@+id/city"
+            android:id="@+id/lv"/>
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#13A89E"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="GET RESULTS"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

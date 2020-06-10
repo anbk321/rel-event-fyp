@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "321569144613",
+    "firebase_url": "https://fyptrial-d98b1.firebaseio.com",
+    "project_id": "fyptrial-d98b1",
+    "storage_bucket": "fyptrial-d98b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321569144613:android:18d7c01be25b578a05a4cc",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "321569144613-6duc3nopbnfkr8j6vqduhqvek855tqra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fyp",
+            "certificate_hash": "4642993cc9b245f32ce0ad1cd032be701a11d44c"
+          }
+        },
+        {
+          "client_id": "321569144613-9mp2ju0c3jdofa4qsm7hm7bpkikt5i1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjosbBzp13wmr1C36agvOzY7ejD3RlqkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "321569144613-9mp2ju0c3jdofa4qsm7hm7bpkikt5i1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

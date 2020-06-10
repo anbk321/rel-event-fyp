@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:fitsSystemWindows="true"
+    android:background="#F7FFFE">
+
+
+    <RelativeLayout
+        android:layout_weight="0.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/gridbg">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:text="REL-EVENT"
+            android:textSize="40sp"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <!--  Name Label -->
+        <EditText android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:paddingBottom="11dp"
+            android:hint="Name" />
+
+
+        <!--  City Label -->
+        <EditText android:id="@+id/et_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:paddingBottom="11dp"
+            android:hint="City" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:layout_marginTop="13dp"
+            android:focusable="false"
+            android:layout_below="@+id/city"
+            android:id="@+id/lv"/>
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/register"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#13A89E"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:text="Update"/>
+
+    </LinearLayout>
+</LinearLayout>
